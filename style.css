@@ -1,0 +1,52 @@
+/*Part 1 ESTILS GENERALS DEL COS (body)*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+/*Part 2 SELECTORS D'ETIQUETA, CLASSE I ID*/
+
+/* 1.Selector d'ID (#main-header) */
+#main-header {
+    background-color: #1e293b;
+    text-align: center;
+    color: #ffffff;
+    padding: 30px;
+}
+
+/* 2.Selector de Classe (.subtitol) */
+.subtitol {
+    font-style: italic;
+    color: #cbd5e1;
+}
+
+/* 3.Selector de Classe (.card) */
+.card {
+    background-color: #ffffff;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+}
+
+/* 4.Selector de Classe combinat (.alert-box) */
+.alert-box {
+    border-left: 5px solid #ef4444;
+}
+
+/* 5.Selector d' etiqueta i estat hover (.btn) */
+.btn {
+    background-color: #2563eb;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+/* (.btn:hover) */
+.btn:hover {
+    background-color: #1d4ed8;
+}
